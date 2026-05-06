@@ -21,17 +21,18 @@ Original dataset:
   
 Contains the source codes of Machine Learning models (MLP, GRU, ARIMA) and their hyperparameter optimizers (*Grid Search* (**grid_search.py**), *Tree of parzen estimators (TPE)* (**hypeas_gru .py** and **hypeas_mlp.py**) for local execution.
 
-To execute the algorithms, you will need an environment with python version 3.11.
-Python 3.11 available at: https://www.python.org/downloads/release/python-3119/
+To execute the algorithms, you will need an environment with python version 3.11.  
+Python 3.11 available at:  
+https://www.python.org/downloads/release/python-3119/
 
-To create an environment, run:
-py -3.11 -m venv .venv
+To create an environment, run:  
+**py -3.11 -m venv .venv**
 
-Activate the environment:
-.\.venv\Scripts\Activate.ps1
+Activate the environment:  
+**.\\.venv\Scripts\Activate.ps1**
 
-And install the packages:
-pip install -r requirements.txt
+And install the packages:  
+**pip install -r requirements.txt**
 
 The algorithms below are available as an alternative for online execution:
 - **MLP_exec.ipynb**
