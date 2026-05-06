@@ -1,0 +1,70 @@
+Commands for executing algorithms with datasets available in the directory /http_requests_nasa/ 
+
+python hypeas_mlp.py trace1.csv 
+python hypeas_mlp.py trace5.csv 
+python hypeas_mlp.py trace10.csv 
+python hypeas_mlp.py trace15.csv 
+python hypeas_mlp.py trace20.csv 
+python hypeas_mlp.py trace25.csv 
+python hypeas_mlp.py trace30.csv 
+python hypeas_mlp.py trace35.csv 
+python hypeas_mlp.py trace40.csv 
+python hypeas_mlp.py trace45.csv 
+python hypeas_mlp.py trace50.csv 
+python hypeas_mlp.py trace60.csv 
+
+python hypeas_gru.py trace1.csv 
+python hypeas_gru.py trace5.csv 
+python hypeas_gru.py trace10.csv 
+python hypeas_gru.py trace15.csv 
+python hypeas_gru.py trace20.csv 
+python hypeas_gru.py trace25.csv 
+python hypeas_gru.py trace30.csv 
+python hypeas_gru.py trace35.csv 
+python hypeas_gru.py trace40.csv 
+python hypeas_gru.py trace45.csv 
+python hypeas_gru.py trace50.csv 
+python hypeas_gru.py trace60.csv 
+
+python mlp.py trace1.csv 200 130 100 10 
+python mlp.py trace5.csv 110 180 50 25 
+python mlp.py trace10.csv 200 130 100 10 
+python mlp.py trace15.csv 130 200 60 30 
+python mlp.py trace20.csv 110 190 50 16 
+python mlp.py trace25.csv 130 200 60 30 
+python mlp.py trace30.csv 130 200 60 30 
+python mlp.py trace35.csv 130 200 60 30 
+python mlp.py trace40.csv 130 200 60 30 
+python mlp.py trace45.csv 130 200 60 30 
+python mlp.py trace50.csv 130 200 60 30 
+python mlp.py trace55.csv 130 200 30 60 
+python mlp.py trace60.csv 130 130 30 30 
+
+python gru.py trace1.csv 140 150 8 64 
+python gru.py trace5.csv 130 130 128 64
+python gru.py trace10.csv 140 100 16 32
+python gru.py trace15.csv 140 190 5 40 
+python gru.py trace20.csv 140 200 50 45
+python gru.py trace25.csv 180 200 10 80
+python gru.py trace30.csv 140 190 5 40 
+python gru.py trace35.csv 180 200 10 80
+python gru.py trace40.csv 130 130 256 32
+python gru.py trace45.csv 140 150 8 64 
+python gru.py trace50.csv 130 130 60 60
+python gru.py trace55.csv 130 130 128 64
+python gru.py trace60.csv 130 130 128 64 
+
+python arima.py trace1.csv 0 1 2 	
+python arima.py trace5.csv 2 0 1 
+python arima.py trace10.csv 0 1 1
+python arima.py trace15.csv 0 2 1 
+python arima.py trace20.csv 1 0 2 
+python arima.py trace25.csv 4 0 1 
+python arima.py trace30.csv 2 0 2 
+python arima.py trace35.csv 4 0 1 
+python arima.py trace40.csv 8 0 1 
+python arima.py trace45.csv 2 0 2
+python arima.py trace50.csv 2 0 1 
+python arima.py trace55.csv 10 0 2
+python arima.py trace60.csv 2 1 2
+

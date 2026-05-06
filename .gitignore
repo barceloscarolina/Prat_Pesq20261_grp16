@@ -1,0 +1,8 @@
+.venv/*
+__pycache__/*
+*.json
+tuner_results/*
+GRU_Execucoes.txt
+gru_hyperparameters.txt
+MLP_Execucoes.txt
+log_grid.txt
